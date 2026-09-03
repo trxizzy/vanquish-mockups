@@ -4,6 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Vanquish — Client Viewers</title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="Vanquish — Client Viewers">
+<meta property="og:description" content="Interactive 3D packaging reviews, built from the production dielines.">
+<meta property="og:image" content="https://trxizzy.github.io/vanquish-mockups/preview.jpg">
+<meta property="og:url" content="https://trxizzy.github.io/vanquish-mockups/">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -30,6 +36,7 @@
     padding:22px 24px;transition:border-color .15s,background .15s}
   .card:hover{border-color:var(--gold);background:#1b1815}
   .card:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+  .card .thumb{display:block;width:100%;height:auto;border:1px solid var(--line);margin-bottom:18px}
   .card h2{margin:0 0 6px;font-size:18px;font-weight:600;color:var(--bright);letter-spacing:0}
   .card p{margin:0;font-size:13.5px;color:var(--label)}
   .card .meta{display:block;margin-top:12px;font-family:"IBM Plex Mono",ui-monospace,monospace;
@@ -58,6 +65,7 @@
     <ul class="list">
       <li>
         <a class="card" href="stky-v3/">
+          <img class="thumb" src="preview.jpg" alt="The STKY V3 master box, 10 pack and single box together." width="1200" height="630">
           <h2>STKY V3 Retail Cartons</h2>
           <p>Single box, 10 Pack and 100-pack master box in White Truffle. Orbit each carton,
              open the master box lid, and compare the three artwork directions side by side.</p>
